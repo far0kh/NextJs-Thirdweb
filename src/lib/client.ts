@@ -7,6 +7,6 @@ export const client = createThirdwebClient(
   secretKey
     ? { secretKey }
     : {
-        clientId,
-      }
+      clientId,
+    }
 );
